@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PA3 Plots & Examples</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 24px; }
+      h1 { margin-bottom: 8px; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(320px,1fr)); gap: 18px; }
+      .card { border: 1px solid #ddd; padding: 12px; border-radius: 6px; }
+      img { max-width: 100%; height: auto; display:block; margin: 0 auto; }
+      .caption { text-align: center; margin-top: 8px; font-size: 0.95rem; color:#333 }
+    </style>
+  </head>
+  <body>
+    <h1>PA3 — Fashion-MNIST plots and examples</h1>
+    <p>Run <strong>fashionmnist.py</strong> to generate the plots. Common output filenames are shown below.</p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>FFN: example classifications</h3>
+        <img src="ffn_examples.png" alt="FFN examples (correct + incorrect)"/>
+        <div class="caption">`ffn_examples.png` — one correct + one incorrect example, with labels.</div>
+      </div>
+
+      <div class="card">
+        <h3>CNN: example classifications</h3>
+        <img src="cnn_examples.png" alt="CNN examples (correct + incorrect)"/>
+        <div class="caption">`cnn_examples.png` — one correct + one incorrect example, with labels.</div>
+      </div>
+
+      <div class="card">
+        <h3>FFN training loss</h3>
+        <img src="training_losses_ffn.png" alt="FFN training loss"/>
+        <div class="caption">`training_losses_ffn.png` — training loss over epochs for the FFN.</div>
+      </div>
+
+      <div class="card">
+        <h3>CNN training loss</h3>
+        <img src="training_losses_cnn.png" alt="CNN training loss"/>
+        <div class="caption">`training_losses_cnn.png` — training loss over epochs for the CNN.</div>
+      </div>
+
+      <div class="card">
+        <h3>Kernels (first conv layer)</h3>
+        <img src="kernels.png" alt="First-layer kernels"/>
+        <div class="caption">`kernels.png` — learned kernels from the first convolutional layer (if generated).</div>
+      </div>
+
+      <div class="card">
+        <h3>Feature maps</h3>
+        <img src="features.png" alt="Feature maps"/>
+        <div class="caption">`features.png` — feature maps produced by applying kernels to a sample image (if generated).</div>
+      </div>
+    </div>
+
+    <hr />
+    <p>To create a single PDF for submission, use the commands in the <a href="README.md">README</a>.</p>
+  </body>
+</html>
