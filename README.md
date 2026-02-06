@@ -14,11 +14,11 @@ Suggested repository names (pick one):
 
 Contents
 - `fashionmnist.py`: end-to-end training and plotting script (instantiates `FF_Net` and `Conv_Net`).
-- `ffn.py`: feedforward network implementation (complete this file if not already).
-- `cnn.py`: convolutional network implementation (complete this file if not already).
+- `ffn.py`: feedforward network implementation.
+- `cnn.py`: convolutional network implementation .
 - `kernel_vis.py`: kernel/feature-visualization utilities.
 - `requirements.txt`: Python dependencies.
-- `PA3_splots.html`: simple display page with generated plot images.
+- `PA3_plots.pdf`: Visual examples of model classifications.
 
 Usage
 1. Install requirements (recommended in a venv):
