@@ -1,6 +1,6 @@
 # Fashion-MNIST Classification (PA3)
 
-Project: end-to-end classification of Fashion-MNIST using two PyTorch models: a fully-connected feedforward network (FFN) and a convolutional neural network (CNN).
+This is an end-to-end classification model trained on the  Fashion-MNIST dataset of clothing pictures using two PyTorch models: a fully-connected feedforward network (FFN) and a convolutional neural network (CNN).
 
 This repository contains code and plots for training, evaluating, and visualizing models on the Fashion-MNIST dataset.
 
